@@ -1,8 +1,10 @@
 def big_no(a,b):
     if a > b :
         print(f"{a} is biggest")
-    else :
+    elif b < a  :
         print(f"{b} is Biggest")
+    else :
+        print("Both are Equal")
     return 
 
 a = int(input("Enter the first number :"))
