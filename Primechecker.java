@@ -5,8 +5,8 @@ public class Primechecker {
         if(num < 2){
             return false;
         }
-        for(int i = 2; i <= Math.sqrt(num);i++){
-            if(num % i == 0){
+        for(int i = 2; i <= Math.sqrt(num);i++){         //Loop till the sqrt of that number
+            if(num % i == 0){                              //If the number have any factor then it is not a prime number
                 return false;
             }
         }
